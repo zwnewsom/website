@@ -1,0 +1,165 @@
+/* Color Pallette
+#2D3142 - gunmetal
+#BFC0C0 - silver
+#FFFFFF - white
+#EF8354 - light red ochre
+#4F5D75 - black coral
+#E8EAEA - header font
+*/
+
+
+
+
+/* Global Styles
+----------------------------*/
+
+body
+{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+.content-wrap
+{
+    padding: 30px;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+/* Image
+-----------------------------*/
+.image
+{
+    background: #4F5D75;
+    text-align: center;
+    max-width: auto;
+    width: auto;
+    margin:0 auto;
+}
+
+.image p
+{
+    margin: 0 auto;
+    padding: 15px 0px 30px 0px;
+    color: #fafafa;
+}
+
+img
+{
+    border: 2px solid white;
+}
+
+.code
+{
+  border-radius: 5px;
+  width: 700px; 
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #ccc;
+  height: auto;
+  font-family: "Andale Mono", AndaleMono, monospace;
+  text-align: left;
+  font-size:13px;
+  color: #fafafa;
+}
+
+.console
+{
+  width: 620px;
+  padding: 40px;
+  height: auto;
+  margin:0 auto;
+  background: #383737;
+}
+
+.answer
+{
+    color: #37F75F;
+}
+
+.answer a
+{
+    color: #37F75F;
+}
+/* Header and Footer
+----------------------------*/
+header
+{
+    text-align: center;
+    background: #F9F9F9;
+    color: #4F5D75;
+}
+
+footer
+{
+    background: #2D3142;
+    color: #FFFFFF;
+}
+
+.a
+{
+    text-transform: uppercase;
+    color: #EF8354
+}
+/* Work Experience
+----------------------------*/
+.work
+{
+    background: #EF8354;
+}
+
+/* Education
+----------------------------*/
+.education
+{
+    background: #BFC0C0;
+}
+
+img 
+{
+    border-radius: 50%;
+    border: hidden;
+}
+@media only screen and (max-width:480px){
+    body
+    {
+        font-size: 4vw;
+    }
+    h1
+    {
+        font-size: 5vw;
+    }
+    h3
+    {
+        font-size: 4vw;
+    }
+    .code
+    {
+        border-radius: 5px;
+        width: auto; 
+        margin: 0 auto;
+        padding-top:15px;
+        font-size:30px;
+        background: #ccc;
+        height: auto;
+        font-family: "Andale Mono", AndaleMono, monospace;
+        text-align: left;
+        font-size:13px;
+        color: #fafafa;
+    }
+    .console
+    {
+        width: auto;
+        padding: 40px;
+        height: auto;
+        margin:0 auto;
+        background: #383737;
+    }
+    img 
+    {
+        border-radius: 50%;
+        border: black;
+    }
+}

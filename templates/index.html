@@ -9,12 +9,13 @@
     <link href = "/static/style.css" rel = "stylesheet">
 </head>
 <body>
+
     <div id="toc-holder" class="toc-holder">
         <a href="#" class="toc-link" id="toc-link"><span>&#9776;</span></a>
         <ul id="toc" class="toc">
-            <li class="toc-h1"><a href="#console">About</a></li>
+            <li class="toc-h1"><a href="#section1">About</a></li>
             <li class="toc-h1"><a href="#resume">Résumé</a></li>
-            <li class="toc-h1"><a href="#work">Work</a></li>
+            <li class="toc-h1"><a href="#education">Work</a></li>
         </ul>
     </div>
     
@@ -25,12 +26,15 @@
         </div>
     </header>
     <main>
-        <div class="image">
+        <div id="section1">
+            <p>This is where the console will be</p>
+        </div>
+        <!-- <div id="image">
             <div class="content-wrap">
                 <p>I'm studying Computer Science at UCF. I like to learn things and solve problems.</p>
-                <!-- Console -->
-                    <div class="code">
-                        <div class="console">
+                
+                    <div id="code">
+                        <div id="console">
                             #! /zach/info<br/><br/>
                             &gt; Zach.origin<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; Orlando, FL<br/><br/></span>
@@ -41,19 +45,7 @@
                             &gt; Zach.expectedGraduation<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; December 2019<br/><br/></span>
                             &gt; Zach.interests<br/>
-                            <span class="answer">&nbsp;&nbsp;=&gt; {philosophy, computer science, politics}<br/><br/></span>
-                            <!-- &gt; Zach.favoriteBooks<br/>
-                            <span class="answer">&nbsp;&nbsp;=&gt; <a href = "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034" target = "_blank">How to Win Friends and Influence People by Dale Carnegie</a><br/></span>
-                            <span class="answer">&nbsp;&nbsp;=&gt; <a href = "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target = "_blank">Sapiens: A Brief History of Humankind by Yuval Noah Harari</a><br/></span>
-                            <span class="answer">&nbsp;&nbsp;=&gt; <a href = "https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930" target = "_blank">Outliers: The Story of Success by Malcolm Gladwell</a><br/></span>
-                            <span class="answer">&nbsp;&nbsp;=&gt; <a href = "https://www.amazon.com/Letters-Young-Contrarian-Mentoring-Paperback/dp/0465030335" target = "_blank">Letters to a Young Contrarian by Christopher Hitchens</a><br/></span>
-                            <span class="answer">&nbsp;&nbsp;=&gt; <a href = "https://www.amazon.com/Liberty-John-Stuart-Mill/dp/1434463834" target = "_blank">On Liberty by John Stuart Mill</a><br/></span> -->
-<!--                            &gt; Zach.workExperience.latest<br/>-->
-<!--                            <span class="answer">&nbsp;&nbsp;=&gt; Latest Work Experience<br/>-->
-<!--                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; company: "College Work Experience Program (CWEP), UCF"<br/>-->
-<!--                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Lockheed Martin Software Engineer"<br/>-->
-<!--                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date: "May 2018 - Present"<br/>-->
-                            
+                            <span class="answer">&nbsp;&nbsp;=&gt; {philosophy, computer science, politics}<br/><br/></span>                  
                             &gt; Zach.resume<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; <a target="_blank" href="attachments/zNewsomResume.pdf">zachnewsom.pdf</a><br/><br/></span>
                             &gt; Zach.email<br/>
@@ -61,11 +53,11 @@
                         </div>
                     </div>
             </div>
-        </div>
+        </div> -->
         <!-- Work Experience -->
         <section class="work">
             <div class="content-wrap">
-                <h2>Work Experience</h2>
+                <h2 id="resume">Work Experience</h2>
 
                 <!-- Copy and paste whole block to add more jobs -->
                 <h3>Software Engineer Associate @ Lockheed Martin</h3>
@@ -88,7 +80,7 @@
         <!-- Education -->
         <section class="education">
             <div class="content-wrap">
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
         
                 <!-- Copy this section to add another school -->
                 <p style="float: left;"><img class="icon" src="../static/images/TheTab_KGrgb_300ppi.png" height="30px" width="30px"></p>

@@ -29,7 +29,7 @@ body
 
 /* Image
 -----------------------------*/
-.image
+#image
 {
     background: #4F5D75;
     text-align: center;
@@ -50,7 +50,7 @@ img
     border: 2px solid white;
 }
 
-.code
+#code
 {
   border-radius: 5px;
   width: 700px; 
@@ -65,7 +65,7 @@ img
   color: #fafafa;
 }
 
-.console
+#console
 {
   width: 620px;
   padding: 40px;
@@ -135,7 +135,7 @@ img
     {
         font-size: 4vw;
     }
-    .code
+    #code
     {
         border-radius: 5px;
         width: auto; 
@@ -149,7 +149,7 @@ img
         font-size:13px;
         color: #fafafa;
     }
-    .console
+    #console
     {
         width: auto;
         padding: 40px;
